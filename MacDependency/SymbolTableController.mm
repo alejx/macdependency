@@ -23,7 +23,7 @@ const int TYPE[] = {SymbolTableEntry::TypeExported, SymbolTableEntry::TypeImport
 
 - (id)initWithCoder:(NSCoder *)decoder {
 	self = [super initWithCoder:decoder];
-    if (self) {
+  if (self) {
 		demangleNames = true;
 	}
     return self;
