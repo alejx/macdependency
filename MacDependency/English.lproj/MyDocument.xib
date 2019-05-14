@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="macosx"/>
-        <development version="7000" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11542"/>
-        <capability name="box content view" minToolsVersion="7.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="MyDocument">
@@ -24,7 +23,7 @@
             <rect key="contentRect" x="470" y="260" width="1454" height="698"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1178"/>
             <value key="minSize" type="size" width="94" height="86"/>
-            <view key="contentView" misplaced="YES" id="6">
+            <view key="contentView" id="6">
                 <rect key="frame" x="0.0" y="0.0" width="1454" height="698"/>
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 <userGuides>
@@ -132,11 +131,11 @@
                                             </subviews>
                                             <nil key="backgroundColor"/>
                                         </clipView>
-                                        <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="100035">
+                                        <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="100035">
                                             <rect key="frame" x="1" y="662" width="478" height="15"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </scroller>
-                                        <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="NO" id="100034">
+                                        <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="100034">
                                             <rect key="frame" x="479" y="17" width="15" height="645"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </scroller>
@@ -159,7 +158,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="687" height="447"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
-                                                    <popUpButton verticalHuggingPriority="750" misplaced="YES" id="100349">
+                                                    <popUpButton verticalHuggingPriority="750" id="100349">
                                                         <rect key="frame" x="99" y="363" width="174" height="26"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="100352" id="100350">
@@ -183,7 +182,7 @@
                                                         <rect key="frame" x="283" y="203" width="384" height="22"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                                         <searchFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" borderStyle="bezel" bezelStyle="round" id="100192">
-                                                            <font key="font" metaFont="system" size="16"/>
+                                                            <font key="font" metaFont="smallSystem"/>
                                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                         </searchFieldCell>
@@ -260,7 +259,7 @@
                                                             </binding>
                                                         </connections>
                                                     </textField>
-                                                    <textField verticalHuggingPriority="750" misplaced="YES" id="100153">
+                                                    <textField verticalHuggingPriority="750" id="100153">
                                                         <rect key="frame" x="16" y="347" width="82" height="14"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="ID" id="100154">
@@ -272,7 +271,7 @@
                                                             <binding destination="100248" name="hidden" keyPath="selection.showIdentifier" id="100416"/>
                                                         </connections>
                                                     </textField>
-                                                    <textField verticalHuggingPriority="750" misplaced="YES" id="100418">
+                                                    <textField verticalHuggingPriority="750" id="100418">
                                                         <rect key="frame" x="16" y="347" width="87" height="14"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Dynamic Linker" id="100419">
@@ -413,11 +412,11 @@
                                                                 </tableView>
                                                             </subviews>
                                                         </clipView>
-                                                        <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" controlSize="small" horizontal="YES" id="100075">
+                                                        <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" controlSize="small" horizontal="YES" id="100075">
                                                             <rect key="frame" x="1" y="207" width="390" height="11"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                         </scroller>
-                                                        <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" controlSize="small" horizontal="NO" id="100074">
+                                                        <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" controlSize="small" horizontal="NO" id="100074">
                                                             <rect key="frame" x="391" y="17" width="11" height="190"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                         </scroller>
@@ -440,7 +439,7 @@
                                                             <action selector="typeFilterChanged:" target="100197" id="100232"/>
                                                         </connections>
                                                     </segmentedControl>
-                                                    <textField verticalHuggingPriority="750" misplaced="YES" id="100057">
+                                                    <textField verticalHuggingPriority="750" id="100057">
                                                         <rect key="frame" x="16" y="369" width="82" height="14"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Architecture" id="100058">
@@ -512,7 +511,7 @@
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
                                                     </textField>
-                                                    <button verticalHuggingPriority="750" misplaced="YES" id="100379">
+                                                    <button verticalHuggingPriority="750" id="100379">
                                                         <rect key="frame" x="563" y="411" width="104" height="19"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                                                         <buttonCell key="cell" type="roundRect" title="Reveal in Finder" bezelStyle="roundedRect" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="100380">
@@ -533,29 +532,31 @@
                                                         <rect key="frame" x="12" y="8" width="653" height="210"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <view key="contentView" id="WcT-KN-GjD">
-                                                            <rect key="frame" x="1" y="1" width="651" height="194"/>
+                                                            <rect key="frame" x="3" y="3" width="647" height="192"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
                                                                 <view id="100388">
-                                                                    <rect key="frame" x="-3" y="2" width="649" height="193"/>
+                                                                    <rect key="frame" x="-3" y="2" width="645" height="191"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
                                                                         <scrollView autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" id="100389">
-                                                                            <rect key="frame" x="17" y="10" width="624" height="177"/>
+                                                                            <rect key="frame" x="17" y="10" width="620" height="175"/>
                                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                                            <clipView key="contentView" id="fNT-la-3fJ">
-                                                                                <rect key="frame" x="1" y="1" width="622" height="175"/>
+                                                                            <clipView key="contentView" drawsBackground="NO" id="fNT-la-3fJ">
+                                                                                <rect key="frame" x="1" y="1" width="618" height="173"/>
                                                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                                 <subviews>
-                                                                                    <textView editable="NO" importsGraphics="NO" id="100390">
-                                                                                        <rect key="frame" x="0.0" y="0.0" width="622" height="175"/>
+                                                                                    <textView editable="NO" importsGraphics="NO" verticallyResizable="YES" id="100390">
+                                                                                        <rect key="frame" x="0.0" y="0.0" width="622" height="173"/>
                                                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                                                        <size key="minSize" width="622" height="175"/>
+                                                                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                                                        <size key="minSize" width="618" height="173"/>
                                                                                         <size key="maxSize" width="760" height="10000000"/>
                                                                                         <attributedString key="textStorage">
                                                                                             <fragment content="Lorem ipsum dolor sit er ">
                                                                                                 <attributes>
+                                                                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                                                                     <font key="NSFont" metaFont="label"/>
                                                                                                     <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                                                                         <tabStops>
@@ -661,6 +662,7 @@
                                                                                             </fragment>
                                                                                             <fragment content="elit">
                                                                                                 <attributes>
+                                                                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                                                                     <font key="NSFont" size="10" name="LucidaGrande-Bold"/>
                                                                                                     <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                                                                         <tabStops>
@@ -766,6 +768,7 @@
                                                                                             </fragment>
                                                                                             <fragment content=" lamet, ">
                                                                                                 <attributes>
+                                                                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                                                                     <font key="NSFont" metaFont="label"/>
                                                                                                     <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                                                                         <tabStops>
@@ -871,6 +874,7 @@
                                                                                             </fragment>
                                                                                             <fragment content="consectetaur">
                                                                                                 <attributes>
+                                                                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                                                                     <font key="NSFont" size="10" name="LucidaGrande-Bold"/>
                                                                                                     <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                                                                         <tabStops>
@@ -976,6 +980,7 @@
                                                                                             </fragment>
                                                                                             <fragment content=" cillium adipisicing pecu, sed do ">
                                                                                                 <attributes>
+                                                                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                                                                     <font key="NSFont" metaFont="label"/>
                                                                                                     <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                                                                         <tabStops>
@@ -1081,6 +1086,7 @@
                                                                                             </fragment>
                                                                                             <fragment content="eiusmod">
                                                                                                 <attributes>
+                                                                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                                                                     <font key="NSFont" size="10" name="LucidaGrande-Bold"/>
                                                                                                     <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                                                                         <tabStops>
@@ -1187,6 +1193,7 @@
                                                                                             <fragment>
                                                                                                 <mutableString key="content"> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Et harumd und lookum like Greek to me, dereud facilis est er expedit distinct. Nam liber te conscient to factor tum poen legum odioque civiuda</mutableString>
                                                                                                 <attributes>
+                                                                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                                                                     <font key="NSFont" metaFont="label"/>
                                                                                                     <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                                                                         <tabStops>
@@ -1298,14 +1305,13 @@
                                                                                         </connections>
                                                                                     </textView>
                                                                                 </subviews>
-                                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                             </clipView>
-                                                                            <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="100391">
+                                                                            <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="100391">
                                                                                 <rect key="frame" x="-100" y="-100" width="345" height="15"/>
                                                                                 <autoresizingMask key="autoresizingMask"/>
                                                                             </scroller>
-                                                                            <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="NO" id="100392">
-                                                                                <rect key="frame" x="352" y="1" width="16" height="165"/>
+                                                                            <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="100392">
+                                                                                <rect key="frame" x="593" y="1" width="16" height="168"/>
                                                                                 <autoresizingMask key="autoresizingMask"/>
                                                                             </scroller>
                                                                         </scrollView>
@@ -1351,7 +1357,7 @@
                         <nil key="toolTip"/>
                         <size key="minSize" width="152" height="25"/>
                         <size key="maxSize" width="152" height="27"/>
-                        <popUpButton key="view" verticalHuggingPriority="750" misplaced="YES" id="100315">
+                        <popUpButton key="view" verticalHuggingPriority="750" id="100315">
                             <rect key="frame" x="0.0" y="14" width="152" height="25"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             <popUpButtonCell key="cell" type="roundTextured" title="Item 1" bezelStyle="texturedRounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="100318" id="100316">
