@@ -176,13 +176,13 @@
 	NSColor* color;
 	switch(state) {
 		case StateWarning:
-			color = [NSColor blueColor];
+			color = [NSColor systemOrangeColor];
 			break;
 		case StateError:
-			color = [NSColor redColor];
+			color = [NSColor systemRedColor];
 			break;
 		default:
-			color= [NSColor blackColor];
+			color= [NSColor labelColor];
 	}
 	return color;
 }
